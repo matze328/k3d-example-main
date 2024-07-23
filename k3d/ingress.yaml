@@ -17,7 +17,7 @@ spec:
                   number: 4040
           - path: /
             pathType: Prefix
-            frontend:
+            backend:
               service:
                 name: testapp-frontend-service
                 port:
